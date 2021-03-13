@@ -1,0 +1,115 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+/* Pozicionálás */
+
+body {
+  display: flex;
+	align-items: center;
+  height: 100vh;
+  background: url(assets/leander%20k%C3%A9p.jpg) no-repeat center center fixed;
+  background-size: cover;
+	}
+
+.profile-card {
+  width: 600px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .3);
+  border-radius: 12px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+	position: relative;
+	top: -190px;
+  left: 30px
+	}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  width: 160px;
+  height: 180px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.8s ease-in-out;
+  filter: grayscale(90%);
+	
+}
+
+.profile-image {
+  margin-top: -18px;
+	float: left;
+}
+
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+  color: rgba(128,0,128);
+}
+
+li {
+  display: inline;
+	color: rgba(128,0,128);
+}
+
+.head, .about {
+  margin-bottom: 2%;
+}
+
+.content {
+  padding: 3% 2%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+body, html {
+  background-color: rgba(220,224,214);
+  font-family: Cambria;
+  font-size: 24px;
+  color: #500;
+  line-height: 30px;
+  
+}
+
+h1 {
+  font-size: 36px;
+  color: rgba(128,0,128);
+  text-transform: uppercase;
+}
+h2 {
+	color: rgba(139,0,139);
+	}	
+
+
+.about {
+  text-align: justify;
+}
+
+.name-headline {
+	margin-top: 20px;
+}
+
+.links {
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 100px;
+}
